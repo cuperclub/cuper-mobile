@@ -1,9 +1,43 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>login</ion-title>
-  </ion-toolbar>
-</ion-header>
-
-<ion-content>
-
+<ion-content class="login-page" color="gray">
+  <div class="page-container">
+    <div class="illustration">
+      <img src="assets/imgs/logo-cuper.svg" alt="logo">
+    </div>
+    <div class="form-container">
+      <form (ngSubmit)="loginForm()">
+        <div class="input-container">
+          <ion-label position="stacked">Email</ion-label>
+          <ion-input [(ngModel)]="user.email"
+                    type="email"
+                    placeholder="user@example.com"
+                    name="email">
+          </ion-input>
+        </div>
+        <div class="input-container">
+          <ion-label position="stacked">Contraseña</ion-label>
+          <ion-input [(ngModel)]="user.password"
+                    type="password"
+                    name="password"
+                    placeholder="Minimo 6 caracteres">
+          </ion-input>
+        </div>
+        <div class="reset-link">
+            <span (click)="recoverPassword()">
+              recuperar contrseña?
+            </span>
+          </div>
+        <ion-button
+          color="primary"
+          expand="block"
+          type="submit">
+          Iniciar Sesión
+        </ion-button>
+      </form>
+      <div class="register-link">
+        <span (click)="createAccount()">
+          Crear una cuenta
+        </span>
+      </div>
+    </div>
+  </div>
 </ion-content>

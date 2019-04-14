@@ -74,4 +74,22 @@
   --ion-color-light-contrast-rgb: 0, 0, 0;
   --ion-color-light-shade: #d7d8da;
   --ion-color-light-tint: #f5f6f9;
+
+  /** cuper palette **/
+  --ion-color-cuper-main: #2868B0;
+  --ion-color-gray: #F6F7F9;
+  --ion-color-light-gray: #979797;
+  --ion-color-low-gray: #f6f7f9;
+  --ion-color-white: #ffffff;
+  --ion-color-dark: #2e2e2e;
+  --ion-color-medium-dark: #4A4A4A;
+  --ion-color-light-dark: #525050;
+}
+
+.ion-color-gray {
+  --ion-color-base: #f6f7f9;
+}
+
+.ion-color-cuper-main {
+  --ion-color-cuper-main: #2868B0;
 }

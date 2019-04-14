@@ -1,15 +1,8 @@
-page-login {
-  position: relative;
-
-  .content {
-    position: relative;
-    background: --ion-color-light;
-
-    .scroll-content{
-      display: flex;
-      flex-direction: column;
-      height: 100%;
-    }
+.login-page {
+  .page-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
 
     .illustration {
       flex-basis: 60%;
@@ -27,6 +20,17 @@ page-login {
       display: flex;
       flex-direction: column;
       padding: 0 1rem;
+
+      .input-container {
+        margin-bottom: 1rem;
+
+        ion-input {
+          color: var(--ion-color-dark);
+          background: var(--ion-color-white);
+          padding: 0.5rem 1rem !important;
+          margin: 0.5rem 0;
+        }
+      }
 
       button {
         border-radius: 2rem;

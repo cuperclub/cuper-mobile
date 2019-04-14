@@ -1,0 +1,299 @@
+{
+	"onboarding": {
+    "page1": {
+      "title": "Join Us",
+      "description": "Join us and be a member of our exclusive club of clients."
+    },
+    "page2": {
+      "title": "Get Points",
+      "description": "Your orders will add points to you."
+    },
+    "page3": {
+      "title": "Redeem",
+      "description": "Your points could be redeem by rewards, promotions or exclusive sales."
+    },
+    "buttons": {
+      "login": "Login"
+    }
+  },
+  "login": {
+    "title": "Login",
+    "form": {
+      "email": "Email address",
+      "password": "Password"
+    },
+    "signin": "Sign in",
+    "forgot_password": "Forgot your password?",
+    "create_account": "Don't have an account? Create One!"
+  },
+  "register": {
+    "title": "Register",
+    "form": {
+      "name": "Name",
+      "email": "Email address",
+      "password": "Password",
+      "nationalId": "ID"
+    },
+    "signup": "Sign up",
+    "facebook": "Facebook"
+  },
+  "reset": {
+    "title": "Reset",
+    "form": {
+      "email": "Email address"
+    },
+    "reset_password": "Reset your password"
+  },
+  "home": {
+    "tabs": {
+      "home": "Home",
+      "wallet": "Wallet",
+      "profile": "Profile",
+      "new": "New",
+      "transaction": "Transaction",
+      "cashier": "Cashiers"
+    }
+  },
+  "wallet": {
+    "title": "Wallet",
+    "pending": "Pending",
+    "redeemed": "Redeemed",
+    "id": "ID",
+    "rewards": "My Rewards",
+    "qr": {
+      "title": "Personal Code",
+      "description": "Show this code to be credited your points"
+    },
+    "empty_states": {
+      "rewards": {
+        "title": "You have no rewards yet",
+        "message": "Here you will add your rewards once you have redeemed"
+      }
+    }
+  },
+  "profile": {
+    "title": "Profile",
+    "edit": "Update Profile",
+    "accounts": "My Accounts",
+    "update_info": "Update Information",
+    "fields": {
+      "redeemed": "Redeemed",
+      "totalPoints": "Total Points",
+      "availablePoints": "Available Points",
+      "medals": "Medals",
+      "score": "Score",
+      "description": "Description",
+      "redeem_message": "What can I redeem?",
+      "cashier": "I want to register as cashier",
+      "partner": "I want to register my business",
+      "client": "Are you a VIP client?"
+    }
+  },
+  "profileEdit": {
+    "title": "Profile",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "submit": "Save",
+      "nationalId": "ID"
+    }
+  },
+  "categories":{
+    "continue": "Continue",
+    "title": "Categories",
+    "lookingfor": "What are you looking for?",
+    "sayus": "Say us what do you like, and we will let you know where to go"
+  },
+  "configuring": {
+    "finding": "We are getting your results",
+    "redirect": "We will redirect you"
+  },
+  "campaign": {
+    "alerts": {
+      "catch": {
+        "title": "Cool",
+        "message": "Cuper has catched a coupon",
+        "button": "Continue"
+      },
+      "redeemed": {
+        "title": "Awesome",
+        "message": "Your promotion has been redeemed",
+        "button": "Continue"
+      }
+    },
+    "action": "Redeem",
+    "available": "Available",
+    "conditions": "Terms and Conditions"
+  },
+  "common_messages": {
+    "loading": "Please wait...",
+    "close": "Close",
+    "error": "An error has occured",
+    "offline": "No Internet Access",
+    "ok": "Ok",
+    "cancel": "Cancel",
+    "is_in_review": "Your account is being verified, we will notify you when it is available",
+    "access_denied": "You dont have access for this action.",
+    "sent_request": "Send Request",
+    "switch": "Switch",
+    "current_mode": "Current Mode",
+    "take_picture": "Take picture",
+    "choose_gallery": "Choose from gallery",
+    "images": "Images",
+    "choose_action": "Choose action",
+    "check_info": "Check your information"
+  },
+  "cashier": {
+    "rol": "Cashier",
+    "new": {
+      "title": "Register as cashier",
+      "fields": {
+        "choose_company": "Please select one company",
+        "complete_values": "A request will be sent"
+      }
+    },
+    "transaction": {
+      "fields": {
+        "add_points":{
+          "title": "Add",
+          "description": "Points according invoice"
+        },
+        "redeem_promotions":{
+          "title": "Redeem",
+          "description": "Promotions with available points"
+        }
+      }
+    },
+    "register_points": {
+      "fields": {
+        "invoice": {
+          "number": "Invoice Number",
+          "value": "Value"
+        },
+        "modal": {
+          "title": "Invoice Registered",
+          "subtitle": "The points have been added to client"
+        },
+        "register": "Register"
+      }
+    },
+    "redeem_promotion": {
+      "fields": {
+        "modal": {
+          "title": "Reward Redeem",
+          "subtitle": "Congratulations.!"
+        }
+      }
+    },
+    "home": {
+      "fields": {
+        "redeem": {
+          "title": "Promociones canjeadas",
+          "table": {
+            "client": "Cliente",
+            "promotion": "Promoción",
+            "points": "Pts"
+          }
+        },
+        "transaction": {
+          "title": "Transactions",
+          "table": {
+            "client": "Cliente",
+            "invoice": "Factura",
+            "points": "Pts"
+          }
+        }
+      }
+    },
+    "empty_states": {
+      "cashiers": {
+        "title": "No one cashier has yet been registered with your company",
+        "message": "Here you can manage your ATMs, activate / disable"
+      }
+    }
+  },
+  "partner": {
+    "rol": "Partner",
+    "new": {
+      "title": "Register as partner",
+      "fields": {
+        "name": "Legal Representate",
+        "company": "Company Name",
+        "ruc": "Ruc",
+        "category": "Category",
+        "complete_values": "You just need to fill in these fields, to be a member of Cuper Club"
+      }
+    },
+    "home":{
+      "actives": "Actives",
+      "inactives": "Inactives"
+    },
+    "cashiers": {
+      "title": "Cashiers",
+      "fields": {
+        "new_request": "New Request",
+        "my_cashiers": "My Cashiers",
+        "accept": "Accept",
+        "reject": "Reject"
+      }
+    },
+    "empty_states": {
+      "rewards_active": {
+        "title": "You have not published any reward yet",
+        "message": "Here your rewards will be added once created"
+      },
+      "rewards_inactive": {
+        "title": "You have not published any reward yet",
+        "message": "Here your rewards will be added once expired"
+      }
+    }
+  },
+  "client": {
+    "rol": "Client",
+    "welcome": {
+      "title": "Welcome",
+      "description": "For being part of us, We reward you with",
+      "points": "Points"
+    },
+    "home": {
+      "rewards": "New Rewards"
+    }
+  },
+  "rewards":{
+    "title": "Rewards",
+    "points_required": "Needed points",
+    "you_need": "You need",
+    "points_plus": "Points +",
+    "to_get_it": "To take it",
+    "valid_until": "Valid thru",
+    "valid_another_points": "Can I change with other paterns' points?",
+    "my_points": "My points",
+    "where_i_can_change": "Where can you redeem?",
+    "terms": "Terms",
+    "get_it": "Take it",
+    "show_in_local": "Show this code in a local",
+    "to_change_it": "To redeem this reward",
+    "reward_acepted": "Reward accepted",
+    "added_to_wallet": "Added to your wallet",
+    "added_to_account": "Added to your account",
+    "created_for": "Created for",
+    "redeemed": "Redeemed",
+    "redeemReward": "Redeem Reward",
+    "times": "Times",
+    "new_reward": "New reward",
+    "name_promotion": "Name of promotion",
+    "total_promotions": "Total of promotions",
+    "startAt": "Init date",
+    "endAt": "End date",
+    "select_office": "Choose office",
+    "tags": "Tags",
+    "summary": "Summary",
+    "office": "Office"
+  },
+  "transactions":{
+    "title": "Transactions",
+    "date": "Date",
+    "document": "Document",
+    "see_transactions": "See transactions"
+  }
+}

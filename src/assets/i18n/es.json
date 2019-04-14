@@ -1,0 +1,301 @@
+{
+	"onboarding": {
+    "page1": {
+      "title": "Regístrate",
+      "description": "Únete y forma parte de nuestro exclusivo club de clientes."
+    },
+    "page2": {
+      "title": "Obten Puntos",
+      "description": "Todos tus consumos, te acreditarán puntos."
+    },
+    "page3": {
+      "title": "Canjea",
+      "description": "Tus puntos podrán ser canjeados por premios, promociones, o descuentos exclusivos."
+    },
+    "buttons": {
+      "login": "Iniciar Sesión"
+    }
+  },
+  "login": {
+    "title": "Login",
+    "form": {
+      "email": "Correo electrónico",
+      "password": "Contraseña"
+    },
+    "signin": "Iniciar sesión",
+    "forgot_password": "Olvidaste tu contraseña?",
+    "create_account": "¿Aún no tienes cuenta? Regístrate"
+  },
+  "register": {
+    "title": "Registro",
+    "form": {
+      "name": "Nombre",
+      "email": "Correo electrónico",
+      "password": "Contraseña"
+    },
+    "signup": "Registrarse",
+    "facebook": "Facebook"
+  },
+  "reset": {
+    "title": "Restablecer",
+    "form": {
+      "email": "Correo electrónico"
+    },
+    "reset_password": "Restablecer contraseña"
+  },
+  "home": {
+    "tabs": {
+      "home": "Inicio",
+      "wallet": "Wallet",
+      "profile": "Perfil",
+      "new": "Nuevo",
+      "transaction": "Transacción",
+      "cashier": "Empleados"
+    }
+  },
+  "wallet": {
+    "title": "Wallet",
+    "pending": "Pendiente",
+    "redeemed": "Canjeado",
+    "id": "ID",
+    "rewards": "Mis Recompensas",
+    "qr": {
+      "title": "Código Personal",
+      "description": "Muestra este código para que se te acrediten tus puntos"
+    },
+    "empty_states": {
+      "rewards": {
+        "title": "Aún no tienes recompensas",
+        "message": "Aquí se agregaran tus recompensas una vez canjeadas"
+      }
+    }
+  },
+  "profile": {
+    "title": "Perfil",
+    "edit": "Actualizar Perfil",
+    "accounts": "Mis cuentas",
+    "update_info": "Actualizar Informacion",
+    "fields": {
+      "redeemed": "Rewards Obtenidos",
+      "totalPoints": "Puntos Obtenidos",
+      "availablePoints": "Puntos Disponibles",
+      "medals": "Medallas",
+      "score": "Puntos",
+      "description": "Descripción",
+      "redeem_message": "Que puedo canjear?",
+      "cashier": "Registrarme como cashier",
+      "partner": "Registrar mi negocio",
+      "client": "¿Te gustaría ser un cliente VIP?"
+    }
+  },
+	"profileEdit": {
+    "title": "Perfil",
+    "form": {
+    	"name": "Nombre",
+    	"email": "Email",
+    	"submit": "Guardar"
+    }
+  },
+  "categories":{
+    "continue": "Continuar",
+    "title": "Categorías",
+    "lookingfor": "Qué estás buscando?",
+    "sayus": "Dinos que te gusta, y te diremos a donde ir"
+  },
+  "configuring": {
+      "finding": "Estamos generando tus resultados",
+      "redirect": "Te redireccionaremos en unos instantes"
+  },
+  "campaign": {
+    "alerts": {
+      "catch": {
+        "title": "Genial",
+        "message": "Cuper ha atrapado esta promocion",
+        "button": "Continuar"
+      },
+      "redeemed": {
+        "title": "Increible",
+        "message": "Tu promoción ha sido canjeada",
+        "button": "Continuar"
+      }
+    },
+    "action": "Canjearlo",
+    "available": "Disponibles",
+    "conditions": "Terminos y condiciones",
+    "address": "Dirección",
+    "code": "Código"
+  },
+  "common_messages": {
+    "loading": "Por favor espere...",
+    "close": "Cerrar",
+    "error": "Ha ocurrido un error",
+    "offline": "No hay conexion a internet",
+    "ok": "Aceptar",
+    "cancel": "Cancelar",
+    "is_in_review": "Su cuenta está siendo verificada, nosotros le notificaremos cuando este disponible",
+    "access_denied": "No tiene permisos para esta acción.",
+    "sent_request": "Enviar Solicitud",
+    "switch": "Cambiar",
+    "current_mode": "Modo Actual",
+    "take_picture": "Tomar fotografía",
+    "choose_gallery": "Seleccionar de la galería",
+    "images": "Imágenes",
+    "choose_action": "Seleccionar acción",
+    "check_info": "Revisa tu información",
+    "continue": "Continuar"
+  },
+  "cashier": {
+    "rol": "Cajero",
+    "new": {
+      "title": "Cajero",
+      "fields": {
+        "choose_company": "Por favor selecciona una compania",
+        "complete_values": "Una solicitud sera enviada"
+      }
+    },
+    "transaction": {
+      "fields": {
+        "add_points":{
+          "title": "Acreditar",
+          "description": "Puntos segun ordenes de consumo"
+        },
+        "redeem_promotions":{
+          "title": "Reclamar",
+          "description": "Promociones con puntos disponibles"
+        }
+      }
+    },
+    "register_points": {
+      "fields": {
+        "invoice": {
+          "number": "Número de la factura",
+          "value": "Valor"
+        },
+        "modal": {
+          "title": "Consumo Registrado",
+          "subtitle": "Los puntos han sido asignados al cliente"
+        },
+        "register": "Registrar"
+      }
+    },
+    "redeem_promotion": {
+      "fields": {
+        "modal": {
+          "title": "Recompensa Canjeada",
+          "subtitle": "Felicidades.!"
+        }
+      }
+    },
+    "home": {
+      "fields": {
+        "redeem": {
+          "title": "Redeem Promotions",
+          "table": {
+            "client": "Client",
+            "promotion": "Promotion",
+            "points": "Pts"
+          }
+        },
+        "transaction": {
+          "title": "Transactions",
+          "table": {
+            "client": "Client",
+            "invoice": "Invoice",
+            "points": "Pts"
+          }
+        }
+      }
+    },
+    "empty_states": {
+      "cashiers": {
+        "title": "Aun no se ha registrado ningun cajero a tu compania",
+        "message": "Aquí podras administrar tus cajeros, activar/desabilitar"
+      }
+    }
+  },
+  "partner": {
+    "rol": "Socio",
+    "new": {
+      "title": "Socio",
+      "fields": {
+        "name": "Representate Legal",
+        "company": "Nombre de la Empresa",
+        "ruc": "Ruc",
+        "category": "Categoria",
+        "complete_values": "Solo necesitas llenar estos campos, para ser socio de Cuper Club"
+      }
+    },
+    "home":{
+      "actives": "Activos",
+      "inactives": "Inactivos"
+    },
+    "cashiers": {
+      "title": "Empleados",
+      "fields": {
+        "new_request": "Nuevas Solicitudes",
+        "my_cashiers": "Mis Empleados",
+        "accept": "Aceptar",
+        "reject": "Declinar"
+      }
+    },
+    "empty_states": {
+      "rewards_active": {
+        "title": "Aun no has publicado ninguna recompensa",
+        "message": "Aquí se agregarán tus recompensas una vez creadas"
+      },
+      "rewards_inactive": {
+        "title": "Aun no has publicado ninguna recompensa",
+        "message": "Aquí se agregarán tus recompensas una vez expiradas"
+      }
+    }
+  },
+  "client": {
+    "rol": "Cliente",
+    "welcome": {
+      "title": "Bienvenido",
+      "description": "Por formar parte de nosotros, te recompensamos con",
+      "points": "Puntos"
+    },
+    "home": {
+      "rewards": "Nuevas Recompensas"
+    }
+  },
+  "rewards":{
+    "title": "Rewards",
+    "points_required": "Puntos necesarios",
+    "you_need": "Necesitas",
+    "points_plus": "Puntos +",
+    "to_get_it": "Para canjearlo",
+    "valid_until": "Válido hasta",
+    "valid_another_points": "Me sirven puntos de otros locales?",
+    "my_points": "Mis puntos",
+    "where_i_can_change": "Dónde se puede canjear?",
+    "terms": "Términos y condiciones",
+    "get_it": "Canjearlo",
+    "show_in_local": "Muestra este código en el local",
+    "to_change_it": "Para hacer efectivo esta recompensa",
+    "reward_acepted": "Reward aceptado",
+    "added_to_wallet": "Agregado a tu wallet",
+    "added_to_account": "Agregados a tu cuenta",
+    "created_for": "Se creó para",
+    "redeemed": "Canjeado",
+    "redeemReward": "Canjear Reward",
+    "times": "Veces",
+    "new_reward": "Nueva promoción",
+    "edit_reward": "Editar promoción",
+    "name_promotion": "Nombre de la promoción",
+    "total_promotions": "Total de promociones",
+    "startAt": "Fecha de inicio",
+    "endAt": "Fecha de finalización",
+    "select_office": "Selecciona oficina",
+    "tags": "Etiquetas",
+    "summary": "Resumen",
+    "office": "Oficina"
+  },
+  "transactions":{
+    "title": "Transacciones",
+    "date": "Fecha",
+    "document": "Documento",
+    "see_transactions": "Ver transacciones"
+  }
+}

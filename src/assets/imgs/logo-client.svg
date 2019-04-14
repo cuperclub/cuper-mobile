@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="393px" height="193px" viewBox="0 0 393 193" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50 (54983) - http://www.bohemiancoding.com/sketch -->
+    <title>logo client</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="logo-client" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-11" transform="translate(29.000000, 31.000000)">
+            <circle id="Oval-6" fill="#2D50C6" cx="62" cy="62" r="62"></circle>
+            <circle id="Oval-6" fill="#10437D" cx="61.4414414" cy="60.3243243" r="43.5675676"></circle>
+            <circle id="Oval-6" fill="#FFFFFF" cx="62" cy="60.8828829" r="26.2522523"></circle>
+        </g>
+        <text id="Club" font-family="Lato-Light, Lato" font-size="58" font-weight="300" letter-spacing="1.72187495" fill="#696969">
+            <tspan x="193" y="143">Club</tspan>
+        </text>
+        <text id="Cuper" font-family="Lato-Black, Lato" font-size="64" font-weight="700" letter-spacing="1.89999998" fill="#324277">
+            <tspan x="193" y="79">Cuper</tspan>
+        </text>
+    </g>
+</svg>

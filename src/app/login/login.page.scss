@@ -1,0 +1,53 @@
+page-login {
+  position: relative;
+
+  .content {
+    position: relative;
+    background: --ion-color-light;
+
+    .scroll-content{
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+    }
+
+    .illustration {
+      flex-basis: 60%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      img {
+        max-width: 60%;
+      }
+    }
+
+    .form-container {
+      flex-basis: 40%;
+      display: flex;
+      flex-direction: column;
+      padding: 0 1rem;
+
+      button {
+        border-radius: 2rem;
+        width: 100%;
+      }
+
+      .reset-link {
+        width: 100%;
+        margin: 1rem 0;
+        text-align: right;
+        cursor: pointer;
+        color: --ion-color-primary;
+        font-size: 1.2rem;
+      }
+
+      .register-link {
+        width: 100%;
+        text-align: center;
+        margin: 1rem 0;
+        cursor: pointer;
+      }
+    }
+  }
+}

@@ -6,7 +6,7 @@
     <div class="form-container">
       <form (ngSubmit)="loginForm()">
         <div class="input-container">
-          <ion-label position="stacked">Email</ion-label>
+          <ion-label position="stacked">{{"login.form.email" | translate}}</ion-label>
           <ion-input [(ngModel)]="user.email"
                     type="email"
                     placeholder="user@example.com"

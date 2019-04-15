@@ -14,18 +14,24 @@ export class AppComponent {
     private platform: Platform,
     private splashScreen: SplashScreen,
     private statusBar: StatusBar,
-    private _translate: TranslateService
+    private translate: TranslateService
   ) {
     this.initializeApp();
-    let userLang = navigator.language.split('-')[0];
-    userLang = /(en|de|it|fr|es|be)/gi.test(userLang) ? userLang : 'en';
-    this._translate.use(userLang)
   }
 
   initializeApp() {
     this.platform.ready().then(() => {
       this.statusBar.styleDefault();
       this.splashScreen.hide();
+
+      this.translate.setDefaultLang('en');
+      const language = this.translate.getBrowserLang();
+
+      if (language !== undefined) {
+        this.translate.use(language);
+      } else {
+        this.translate.use('en');
+      }
     });
   }
 }

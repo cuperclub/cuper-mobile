@@ -14,7 +14,7 @@ const AppRoutes = {
 
 @NgModule({
   imports: [
-    RouterModule.forChild(AppRoutes.employer)
+    RouterModule.forChild(AppRoutes.user)
   ],
   exports: [RouterModule]
 })

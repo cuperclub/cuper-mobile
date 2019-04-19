@@ -1,0 +1,48 @@
+ion-slides {
+  background: var( --ion-color-base);
+  height: 100vh;
+
+  ion-slide {
+    display: flex;
+    flex-direction: column;
+
+    .illustration {
+      flex-basis: 60%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      ion-img {
+        max-width: 45vw;
+        max-height: 50vh;
+        overflow: hidden;
+      }
+    }
+
+    .message-container {
+      flex-basis: 40%;
+
+      h4 {
+        color: white;
+        // font-family: 'Lato-Bold';
+      }
+
+      p {
+        color: white;
+        font-weight: 300;
+      }
+
+      &.step-1 {
+        background: var(--ion-color-cuper-main);
+      }
+
+      &.step-2 {
+        background: var(--ion-color-cuper-main);
+      }
+
+      &.step-3 {
+        background: var(--ion-color-cuper-main);
+      }
+    }
+  }
+}

@@ -13,6 +13,8 @@ import { HttpClient, HttpClientModule } from "@angular/common/http";
 import { TranslateLoader, TranslateModule } from "@ngx-translate/core";
 import { TranslateHttpLoader } from "@ngx-translate/http-loader";
 
+import { IonicStorageModule } from '@ionic/storage';
+
 @NgModule({
   declarations: [AppComponent],
   entryComponents: [],
@@ -27,7 +29,8 @@ import { TranslateHttpLoader } from "@ngx-translate/http-loader";
           useFactory: HttpLoaderFactory,
           deps: [HttpClient]
       }
-    })
+    }),
+    IonicStorageModule.forRoot()
   ],
   providers: [
     StatusBar,

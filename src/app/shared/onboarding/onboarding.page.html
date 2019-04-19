@@ -1,0 +1,35 @@
+<ion-slides pager="true">
+  <ion-slide class="step-one">
+    <div class="illustration">
+      <ion-img src="/assets/imgs/discover.svg"></ion-img>
+    </div>
+    <div class="message-container step-1">
+      <h4> {{ 'onboarding.page1.title' | translate }} </h4>
+      <p> {{ 'onboarding.page1.description' | translate }}</p>
+    </div>
+  </ion-slide>
+
+  <ion-slide class="step-two">
+    <div class="illustration">
+      <ion-img src="/assets/imgs/coin-illustration.svg"></ion-img>
+    </div>
+    <div class="message-container step-2">
+      <h4> {{ 'onboarding.page2.title' | translate }} </h4>
+      <p> {{ 'onboarding.page3.description' | translate }}</p>
+    </div>
+  </ion-slide>
+
+  <ion-slide class="step-three">
+    <div class="illustration">
+      <ion-img src="/assets/imgs/redeem-illustration.svg"></ion-img>
+    </div>
+    <div class="message-container step-3">
+      <h4> {{ 'onboarding.page3.title' | translate }} </h4>
+      <p> {{ 'onboarding.page3.description' | translate }}</p>
+      <ion-button (click)="finish()" >
+        {{ 'onboarding.buttons.ok' | translate }}
+      </ion-button>
+    </div>
+
+  </ion-slide>
+</ion-slides>

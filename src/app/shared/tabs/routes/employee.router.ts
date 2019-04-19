@@ -1,9 +1,9 @@
 import { Routes } from '@angular/router';
 import { TabsPage } from '../tabs.page';
 
-export const EmployerRoutes: Routes = [
+export const EmployeeRoutes: Routes = [
   {
-    path: 'employer',
+    path: 'employee',
     component: TabsPage,
     children: [
       {
@@ -11,7 +11,7 @@ export const EmployerRoutes: Routes = [
         children: [
           {
             path: '',
-            loadChildren: '../../pages/employer/home/home.module#HomePageModule'
+            loadChildren: '../../pages/employee/home/home.module#HomePageModule'
           }
         ]
       },
@@ -20,7 +20,7 @@ export const EmployerRoutes: Routes = [
         children: [
           {
             path: '',
-            loadChildren: '../../pages/employer/home/home.module#HomePageModule'
+            loadChildren: '../../pages/employee/home/home.module#HomePageModule'
           }
         ]
       },
@@ -29,20 +29,20 @@ export const EmployerRoutes: Routes = [
         children: [
           {
             path: '',
-            loadChildren: '../../pages/employer/home/home.module#HomePageModule'
+            loadChildren: '../../pages/employee/home/home.module#HomePageModule'
           }
         ]
       },
       {
         path: '',
-        redirectTo: '/employer/home',
+        redirectTo: '/employee/home',
         pathMatch: 'full'
       }
     ]
   },
   {
     path: '',
-    redirectTo: '/employer/home',
+    redirectTo: '/employee/home',
     pathMatch: 'full'
   }
 ];

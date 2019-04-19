@@ -3,12 +3,12 @@ import { RouterModule } from '@angular/router';
 
 //routes tabs
 import { UserRoutes } from './routes/user.router';
-import { EmployerRoutes } from './routes/employer.router';
+import { EmployeeRoutes } from './routes/employee.router';
 import { CompanyRoutes } from './routes/company.router';
 
 const AppRoutes = {
   user: UserRoutes,
-  employer: EmployerRoutes,
+  employee: EmployeeRoutes,
   company: CompanyRoutes,
 };
 

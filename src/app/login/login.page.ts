@@ -8,7 +8,6 @@ import { Router } from '@angular/router';
 })
 export class LoginPage implements OnInit {
   user = {}
-  loading: any;
 
   constructor(private router: Router) { }
 

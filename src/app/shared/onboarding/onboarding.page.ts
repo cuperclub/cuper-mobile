@@ -16,7 +16,7 @@ export class OnboardingPage implements OnInit {
 
   async finish() {
     await this.storage.set('onboardingComplete', true);
-    this.router.navigateByUrl('/');
+    this.router.navigateByUrl('/login');
   }
 
 }

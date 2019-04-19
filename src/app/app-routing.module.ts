@@ -3,14 +3,24 @@ import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 import { OnboardingGuard } from './guards/onboarding.guard';
 
 const routes: Routes = [
-  { path: '', loadChildren: './login/login.module#LoginPageModule' },
-  { path: 'app', loadChildren: './shared/tabs/tabs.module#TabsPageModule' },
+  {
+    path: '',
+    redirectTo: '/login',
+    pathMatch: 'full',
+  },
+  {
+    path: 'app',
+    loadChildren: './shared/tabs/tabs.module#TabsPageModule'
+  },
   {
     path: 'login',
     loadChildren: './login/login.module#LoginPageModule',
     canActivate: [OnboardingGuard]
   },
-  { path: 'onboarding', loadChildren: './shared/onboarding/onboarding.module#OnboardingPageModule' },
+  {
+    path: 'onboarding',
+    loadChildren: './shared/onboarding/onboarding.module#OnboardingPageModule'
+  },
 ];
 @NgModule({
   imports: [

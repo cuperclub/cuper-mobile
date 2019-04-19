@@ -14,7 +14,7 @@
           </ion-input>
         </div>
         <div class="input-container">
-          <ion-label position="stacked">Contraseña</ion-label>
+          <ion-label position="stacked">{{"login.form.password" | translate}}</ion-label>
           <ion-input [(ngModel)]="user.password"
                     type="password"
                     name="password"
@@ -23,19 +23,19 @@
         </div>
         <div class="reset-link">
             <span (click)="recoverPassword()">
-              recuperar contrseña?
+              {{"login.forgot_password" | translate}}
             </span>
           </div>
         <ion-button
           color="primary"
           expand="block"
           type="submit">
-          Iniciar Sesión
+          {{"login.signin" | translate}}
         </ion-button>
       </form>
       <div class="register-link">
         <span (click)="createAccount()">
-          Crear una cuenta
+          {{"login.create_account" | translate}}
         </span>
       </div>
     </div>

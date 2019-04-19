@@ -1,9 +1,21 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>onboarding</ion-title>
-  </ion-toolbar>
-</ion-header>
+<ion-slides pager="true">
+  <ion-slide class="step-one">
+      <ion-img src="/assets/imgs/logo-cuper.svg"></ion-img>
+      <h1>Heading</h1>
+      <p>Text</p>
+  </ion-slide>
 
-<ion-content>
+  <ion-slide class="step-two">
+      <ion-img src="/assets/imgs/logo-cuper.svg"></ion-img>
+      <h1>Heading</h1>
+      <p>Text</p>
+  </ion-slide>
 
-</ion-content>
+  <ion-slide class="step-three">
+      <ion-img src="/assets/imgs/logo-cuper.svg"></ion-img>
+      <h1>Heading</h1>
+      <p>Text</p>
+
+      <ion-button (click)="finish()">FINISH TUTORIAL!</ion-button>
+  </ion-slide>
+</ion-slides>

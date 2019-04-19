@@ -13,7 +13,7 @@
       "description": "Your points could be redeem by rewards, promotions or exclusive sales."
     },
     "buttons": {
-      "login": "Login"
+      "ok": "Sounds Great"
     }
   },
   "login": {

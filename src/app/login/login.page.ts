@@ -17,7 +17,7 @@ export class LoginPage implements OnInit {
 
   loginForm(){
     console.log(this.user);
-    this.router.navigate(['/home']);
+    this.router.navigate(['']);
   }
 
 }
